@@ -199,9 +199,9 @@ const FontLink = () => (
 // ════════════════════════════════════════════════
 const ME = {
     name: "kanich fatema mou",
-    photo: "/mou.jpg",              // public/ ফোল্ডারে ছবি রাখো
+    photo: "/mou.jpg",              
     email: "tanhaislammou097@gmail.com",
-    linkedin: "https://linkedin.com/in/amr",
+    linkedin: "https://www.linkedin.com/in/kanich-fatimah-mou/",
     github: "https://github.com/mouislambd",
     location: "Bangladesh 🇧🇩",
     roles: [
@@ -220,7 +220,7 @@ const SKILLS = [
 
 const PROJECTS = [
     {
-        emoji: "🛒", featured: true,
+        image: "/pic.png", featured: true,
         tags: ["Next.js", "Tailwind CSS", "React"],
         title: "keep-keeper",
         desc: "Fully functional productivity web application/note-taking app.",
@@ -228,20 +228,29 @@ const PROJECTS = [
         github: "https://github.com/mouislambd/assignment-7.git",
     },
     {
-        emoji: "🌤️", featured: false,
-        tags: ["JavaScript", "OpenWeather API"],
-        title: "Weather Dashboard",
+        image: "/p2.png", featured: true,
+        tags: ["JavaScript", "OpenWeather API, thailwindcss"],
+        title: "github-issues-trackers",
         desc: "Real-time weather app fetching live data from OpenWeather API with 5-day forecast.",
-        live: "https://your-live-link.vercel.app",
-        github: "https://github.com/amr/project2",
+        live: "github-issues-trackers-2005.netlify.app",
+        github: "https://github.com/mouislambd/b13-a5-github-tracker.git",
     },
     {
-        emoji: "✅", featured: false,
+        image: "/p3.png", featured: true,
         tags: ["React", "LocalStorage"],
-        title: "Task Manager App",
+        title: "Digital Tools Professional React App",
         desc: "Interactive productivity app with tasks, local persistence, and priority tagging.",
-        live: "https://your-live-link.vercel.app",
-        github: "https://github.com/amr/project3",
+        live: "https://kanich-fatema-mou67.netlify.app/",
+        github: "https://github.com/mouislambd/digital-tools-project.git",
+    },
+
+    {
+        image: "/p4.png", featured: true,
+        tags: ["javasript", "Tailwind CSS",],
+        title: "job-trackers",
+        desc: "Fully functional productivity web application.",
+        live: "https://mouislambd.github.io/job-tracker/",
+        github: "https://github.com/mouislambd/job-tracker.git",
     },
 ];
 
@@ -349,7 +358,7 @@ export default function Portfolio() {
                             {typed}<span className="blink">|</span>
                         </p>
                         <p className="hero-desc">
-                            CST student building production-ready web apps today 
+                            CST student building production-ready web apps today
                             and laying the groundwork for Data Science &amp; AI tomorrow.
                         </p>
                         <div className="hero-cta">
@@ -423,7 +432,7 @@ export default function Portfolio() {
                                 <div className="project-thumb">
                                     <div className="project-thumb-bg" />
                                     <div className="project-thumb-grid" />
-                                    <span className="project-emoji">{p.emoji}</span>
+                                    <img src={p.image} alt={p.title} style={{ width: "100%", height: "100%", objectFit: "cover", position: "relative", zIndex: 1 }} />
                                 </div>
                                 <div className="project-body">
                                     <div className="project-tags">
