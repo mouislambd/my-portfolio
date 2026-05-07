@@ -206,16 +206,15 @@ const ME = {
     location: "Bangladesh 🇧🇩",
     roles: [
         "Frontend Developer",
-        "Next.js Enthusiast",
         "Future Data Scientist",
-        "AI Engineer (in progress)",
+        " aspiring AI Engineer (in progress)",
     ],
 };
 
 const SKILLS = [
     { icon: "", title: "WEB DEVELOPMENT", items: ["HTML5 & Semantic CSS", "Tailwind CSS", "JavaScript (ES6+)", "React.js", "Next.js"] },
     { icon: "", title: "PROGRAMMING", items: ["Python (Learning)", "DOM Manipulation", "REST API Integration", "Git & GitHub", "VS Code"] },
-    { icon: "", title: "FUTURE STACK", items: ["Data Science (Upcoming)", "Machine Learning", "NumPy & Pandas", "Data Visualization", "AI Engineering"] },
+    { icon: "", title: "FUTURE STACK", items: ["Data Science (Upcoming)", "Machine Learning", "NumPy & Pandas", "Data Visualization", " aspiring AI Engineering"] },
 ];
 
 const PROJECTS = [
@@ -252,6 +251,15 @@ const PROJECTS = [
         live: "https://mouislambd.github.io/job-tracker/",
         github: "https://github.com/mouislambd/job-tracker.git",
     },
+    {
+        image: "/p5.png", featured: true,
+        tags: ["javasript", "next.js", "react.js", "firebase authentication", "json server", "vercel", "Tailwind CSS",],
+        title: "tiles-gallry",
+        desc: "a responsive tiles gallery web applicatin build with next.js where users can browse tiles,search products,and view information",
+        live: "https://tiles-v2.vercel.app",
+        github: "https://github.com/mouislambd/tiles-gallery.git",
+    },
+
 ];
 
 const LEARNING = [
@@ -521,7 +529,7 @@ export default function Portfolio() {
             {/* FOOTER */}
             <div className="container">
                 <footer>
-                    <p className="footer-copy">© 2025 <span>{ME.name}</span> · Built with Next.js &amp; ❤️</p>
+                    <p className="footer-copy">© 2025 <span>{ME.name}</span> · Built with Next.js &amp; </p>
                     <div className="footer-links">
                         <a href={ME.github} target="_blank" rel="noreferrer">GitHub</a>
                         <a href={ME.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
