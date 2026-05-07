@@ -255,7 +255,7 @@ const PROJECTS = [
         image: "/p5.png", featured: true,
         tags: ["javasript", "next.js", "react.js", "firebase authentication", "json server", "vercel", "Tailwind CSS",],
         title: "tiles-gallry",
-        desc: "a responsive tiles gallery web applicatin build with next.js where users can browse tiles,search products,and view information",
+        desc: "a responsive tiles gallery web applicatin build with next.js where users can browse tiles,search products,and view information. the project includes authentication protected routes dynamic routing and responsive desing for mobile teblet and dekhtop devices",
         live: "https://tiles-v2.vercel.app",
         github: "https://github.com/mouislambd/tiles-gallery.git",
     },
