@@ -395,7 +395,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="about-text fade-in">
-                            <p><strong>CST (Computer Science &amp; Technology)</strong> student passionate about building things for the web. Currently focused on mastering modern front-end with <strong>React &amp; Next.js</strong>.</p>
+                            <p><strong>CST (Computer Science &amp; Technology)</strong>student passionate about building Full-Stack web applications. Currently focused on mastering the MERN Stack with Node.js, Express, MongoDB and building type-safe modern front-ends with<strong>React &amp; Next.js &amp; TypeScript</strong>.</p>
                             <p>Short-term goal: land a <strong>web developer role</strong>. Long-term: become a <strong>Data Scientist + AI Engineer</strong>.</p>
                             <p>I believe in shipping code, learning in public, and letting projects speak louder than words.</p>
                             <div className="about-tags">
