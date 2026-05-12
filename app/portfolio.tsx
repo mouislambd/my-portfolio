@@ -396,10 +396,10 @@ export default function Portfolio() {
                         </div>
                         <div className="about-text fade-in">
                             <p><strong>CST (Computer Science &amp; Technology)</strong>student passionate about building Full-Stack web applications. Currently focused on mastering the MERN Stack with Node.js, Express, MongoDB and building type-safe modern front-ends with<strong>React &amp; Next.js &amp; TypeScript</strong>.</p>
-                            <p>Short-term goal: land a <strong>web developer role</strong>. Long-term: become a <strong>Data Scientist + AI Engineer</strong>.</p>
+                            <p>Short-term goal: land a <strong>web developer role <br /></strong>. Long-term: become a <strong>Data Scientist + AI Engineer</strong>.</p>
                             <p>I believe in shipping code, learning in public, and letting projects speak louder than words.</p>
                             <div className="about-tags">
-                                {["CST Student", "Next.js", "React", "Tailwind CSS", "Python (learning)", "Open to Work"].map((t) => (
+                                {["CST Student", "Next.js", "React", "Tailwind CSS", "Python (learning)", "node.js", "express.js", "MongoDB", "Open to Work"].map((t) => (
                                     <span key={t} className="tag">{t}</span>
                                 ))}
                             </div>
@@ -413,7 +413,7 @@ export default function Portfolio() {
                 <div className="container">
                     <div className="section-label"> SKILLS</div>
                     <h2 className="section-title">What I Work With</h2>
-                    <p className="section-sub">Honest skills only what I actually use. No fakes.</p>
+                    <p className="section-sub">A Specialized selection of technologies i use to build robust and scalable applications.</p>
                     <div className="skills-grid">
                         {SKILLS.map((s, i) => (
                             <div key={i} className="skill-card fade-in">
