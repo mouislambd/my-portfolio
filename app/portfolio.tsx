@@ -205,7 +205,7 @@ const ME = {
     github: "https://github.com/mouislambd",
     location: "Bangladesh 🇧🇩",
     roles: [
-        "Frontend Developer",
+        "MERN Stack Web Developer",
         "Future Data Scientist",
         " aspiring AI Engineer (in progress)",
     ],
@@ -213,7 +213,7 @@ const ME = {
 
 const SKILLS = [
     { icon: "", title: "WEB DEVELOPMENT", items: ["HTML5 & Semantic CSS", "Tailwind CSS", "JavaScript (ES6+)", "React.js", "Next.js"] },
-    { icon: "", title: "PROGRAMMING", items: ["Python (Learning)", "DOM Manipulation", "REST API Integration", "Git & GitHub", "VS Code"] },
+    { icon: "", title: "PROGRAMMING", items: ["Python (Learning)", "DOM Manipulation","node.js", "express.js", "MongoDB", "Firebase", "REST API Integration", "Git & GitHub", "vercel",] },
     { icon: "", title: "FUTURE STACK", items: ["Data Science (Upcoming)", "Machine Learning", "NumPy & Pandas", "Data Visualization", " aspiring AI Engineering"] },
 ];
 
@@ -222,7 +222,7 @@ const PROJECTS = [
         image: "/pic.png", featured: true,
         tags: ["Next.js", "Tailwind CSS", "React"],
         title: "keep-keeper",
-        desc: "Fully functional productivity web application/note-taking app.",
+        desc: "Fully functional productivity web application/note-taking app. a clean  and intuitive interface and responsive application designed to help developeers track their project, timelines,and progress efficintly .build using next.js, react, and tailwind css, it features a minimalist dark-themes",
         live: "https://keenkeeper-beryl.vercel.app/",
         github: "https://github.com/mouislambd/assignment-7.git",
     },
