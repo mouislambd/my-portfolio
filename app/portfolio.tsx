@@ -212,8 +212,8 @@ const ME = {
 };
 
 const SKILLS = [
-    { icon: "", title: "WEB DEVELOPMENT", items: ["HTML5 & Semantic CSS", "Tailwind CSS", "JavaScript (ES6+)", "React.js", "Next.js"] },
-    { icon: "", title: "PROGRAMMING", items: ["Python (Learning)", "DOM Manipulation","node.js", "express.js", "MongoDB", "Firebase", "REST API Integration", "Git & GitHub", "vercel",] },
+    { icon: "", title: "FRONTEND", items: ["HTML5 & Semantic CSS", "Tailwind CSS", "JavaScript (ES6+)", "React.js", "Next.js"] },
+    { icon: "", title: "BACKEND & TOOLS  ", items: ["Python (Learning)", "DOM Manipulation","node.js", "express.js", "MongoDB", "Firebase", "REST API Integration", "Git & GitHub", "vercel",] },
     { icon: "", title: "FUTURE STACK", items: ["Data Science (Upcoming)", "Machine Learning", "NumPy & Pandas", "Data Visualization", " aspiring AI Engineering"] },
 ];
 
